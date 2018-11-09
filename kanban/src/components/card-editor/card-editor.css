@@ -1,0 +1,41 @@
+.card-editor {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-editor__input {
+    width: 270px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.card-editor__save-button {
+    margin: 10px 0;
+    align-self: flex-start;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card-editor__close-button {
+    margin: 10px 0 10px auto;
+    align-self: flex-start;
+    font-size: 24px;
+    font-weight: bold;
+    color: darkred;
+    background: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

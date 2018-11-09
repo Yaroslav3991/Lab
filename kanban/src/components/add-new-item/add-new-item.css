@@ -1,0 +1,66 @@
+.create-new-list__add-input {
+    width: 252px;
+    margin: 0 5px;
+    min-height: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    background-color: #e2e4e6;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 150ms ease-in;
+}
+
+
+.create-new-list__add-input:hover {
+    transition: background-color 150ms ease-in;
+    background-color: #bebebe;
+}
+
+.create-new-list__active-input {
+    width: 252px;
+    margin: 5px;
+    min-height: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.create-new-list {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e2e4e6;
+    width: 272px;
+    border-radius: 5px;
+}
+
+.create-new-list__button {
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-new-list__button--add {
+    width: 50px;
+    height: 25px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+}
+
+.create-new-list__button--x {
+    background: none;
+    color: darkred;
+    font-size: 24px;
+}

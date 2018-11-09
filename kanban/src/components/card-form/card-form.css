@@ -1,0 +1,98 @@
+.card-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88,92,94,0.7);
+    overflow-y: auto;
+    position: fixed;
+    z-index: 20;
+}
+
+.card-form {
+    margin: 100px auto;
+    background: whitesmoke;
+    width: 700px;
+    z-index: 21;
+    position: relative;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 20px;
+    text-align: left;
+}
+
+.card-header__title {
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+
+.card-header__button {
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.card-header__button:hover {
+    color: grey;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 20px;
+}
+
+.description__title {
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description__input-field {
+    min-height: 50px;
+    max-height: 500px;
+    resize: vertical;
+    margin: 5px 10px 5px 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.description__save-button {
+    padding: 10px;
+    font-size: 24px;
+    background-color: green;
+    width: 200px;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.card-form__delete-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: darkred;
+    width: 150px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}

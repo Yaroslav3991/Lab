@@ -1,0 +1,87 @@
+.action-menu {
+    position: absolute;
+    width: 250px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 3px;
+    z-index: 10;
+    top: 40px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-menu__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin: 5px;
+}
+
+.header-name {
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: grey;
+}
+
+.header-button {
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    outline: none;
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.header-button:hover {
+    color: grey;
+}
+
+.action-menu__description {
+    margin: 5px 5px 0;
+    text-align: left;
+    font-weight: bold;
+    color: grey;
+    font-size: 14px;
+}
+
+.action-menu__copy-input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.action-menu__createCopyList {
+    margin: 10px 5px;
+    align-self: flex-start;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+}
+
+.action-menu__select {
+    border: none;
+    border-radius: 3px;
+    background-color: #e2e4e6;
+    cursor: pointer;
+    margin: 5px;
+    width: 240px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+}
+
+.optgroup {
+    font-size: 16px;
+    margin: 10px;
+    background-color: white;
+}

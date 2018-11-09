@@ -1,0 +1,51 @@
+export const ADD_LIST = 'ADD_LIST';
+export const CHANGE_LIST_INPUT = 'CHANGE_LIST_INPUT';
+export const ON_FOCUS_NEW_LIST = 'ON_FOCUS_NEW_LIST';
+export const ON_BLUR_NEW_LIST = 'ON_BLUR_NEW_LIST';
+export const SET_ID_TO_OPEN_ACTION_MENU_IN_COLUMN = 'SET_ID_TO_OPEN_ACTION_MENU_IN_COLUMN';
+export const CLEAR_ID_ACTION_MENU_IN_COLUMN = 'CLEAR_ID_ACTION_MENU_IN_COLUMN';
+export const DELETE_THIS_LIST = 'DELETE_THIS_LIST';
+export const ADD_CARD = 'ADD_CARD';
+export const ON_FOCUS_NEW_CARD = 'ON_FOCUS_NEW_CARD';
+export const ON_BLUR_NEW_CARD = 'ON_BLUR_NEW_CARD';
+export const SET_OPEN_ID_COLUMN = 'SET_OPEN_ID_COLUMN';
+export const CHANGE_CARD_INPUT = 'CHANGE_CARD_INPUT';
+export const SHOW_COPY_MENU = 'SHOW_COPY_MENU';
+export const RETURN_TO_ACTION_MENU = 'RETURN_TO_ACTION_MENU';
+export const CLOSE_SECONDARY_MENU = 'CLOSE_SECONDARY_MENU';
+export const CHANGE_INPUT_VALUE_IN_COPY_MENU = 'CHANGE_INPUT_VALUE_IN_COPY_MENU';
+export const CREATE_COPY_LIST = 'CREATE_COPY_LIST';
+export const SHOW_MOVE_MENU = 'SHOW_MOVE_MENU';
+export const MOVE_THE_COLUMN = 'MOVE_THE_COLUMN';
+export const SAVE_SELECTED_MOVE_INDEX = 'SAVE_SELECTED_MOVE_INDEX';
+export const SHOW_CARD_PREVIEW = 'SHOW_CARD_PREVIEW';
+export const HIDE_CARD_PREVIEW = 'HIDE_CARD_PREVIEW';
+export const ADD_DESCRIPTION_TO_CARD = 'ADD_DESCRIPTION_TO_CARD';
+export const HANDLE_DESCRIPTION_CHANGE = 'HANDLE_DESCRIPTION_CHANGE';
+export const SHOW_CARD_EDIT_MENU = 'SHOW_CARD_EDIT_MENU';
+export const CLOSE_CARD_EDIT_MENU = 'CLOSE_CARD_EDIT_MENU';
+export const HANDLE_CARD_TITLE_CHANGE = 'HANDLE_CARD_TITLE_CHANGE';
+export const SAVE_CHANGE_IN_CARD_TITLE_BY_ID = 'SAVE_CHANGE_IN_CARD_TITLE_BY_ID';
+export const DELETE_CARD_BY_ID = 'DELETE_CARD_BY_ID';
+
+export const CARD = 'card';
+export const LIST = 'list';
+export const CURRENT = 'current';
+
+export const ENTER = 'Enter';
+export const TITLE = 'title';
+export const ADD = 'Add';
+export const SAVE = 'Save';
+export const COPY = 'Copy';
+export const MOVE = 'Move';
+export const DELETE_LIST = 'Delete this list';
+export const DELETE_CARD = 'Delete card';
+
+export const INPUT_PLACEHOLDER = '+ Add another';
+export const TEXT_AREA_PLACEHOLDER = 'Add description...';
+export const NOT_SELECTED = null;
+
+export const CLOSE = '×';
+export const EDIT = '✎';
+export const MORE = '≡';
+export const BACK = '←';

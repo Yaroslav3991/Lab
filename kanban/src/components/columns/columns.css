@@ -1,0 +1,12 @@
+.columns {
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+    margin: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 100%;
+    width: 99%;
+    white-space: normal;
+    word-wrap: break-word;
+}

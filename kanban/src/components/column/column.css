@@ -1,0 +1,76 @@
+.column::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.25);
+}
+
+.column::-webkit-scrollbar-thumb {
+    background: rgba(196,201,204,.9);
+    border-radius: 5px;
+}
+
+.button-new-list--x {
+    background: none;
+    color: darkred;
+    font-size: 24px;
+}
+
+.columns__wrapper {
+    max-height: 98%;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    border: 1px solid ghostwhite;
+    margin: 0 5px;
+    width: 272px;
+    background-color: #e2e4e6;
+    border-radius: 5px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.column__cards {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.column-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 45px;
+    max-height: 300px;
+}
+.column-title__name {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    overflow-y: auto;
+}
+.column-title__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    width: 30px;
+    margin: 5px;
+    font-size: 24px;
+}
+.column-title__button:hover {
+    background-color: #bebebe;
+    margin: 5px;
+}
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.25);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(137,151,157,.9);
+    border-radius: 5px;
+}

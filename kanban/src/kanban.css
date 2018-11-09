@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  background: url(image/mountain.jpg) no-repeat;
+  background-size: cover;
+}
+
+body {
+  height: 100%;
+}
+
+#kanban {
+  height: 100%;
+}
+
+.kanban {
+  text-align: center;
+  height: 100%;
+}
