@@ -1,0 +1,8 @@
+.info-signature {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: silver;
+    font-size: 12px;
+}

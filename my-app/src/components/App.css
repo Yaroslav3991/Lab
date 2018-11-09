@@ -1,0 +1,22 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-list__button-all-tasks-completed {
+    margin: 10px 0 10px 0;
+    width: 500px;
+    padding: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    background: indianred;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.todo-list__button-all-tasks-completed--active {
+    background: green;
+}

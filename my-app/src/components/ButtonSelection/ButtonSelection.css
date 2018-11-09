@@ -1,0 +1,15 @@
+.filter-filed__button--hidden {
+    display: none;
+}
+
+.filter-filed__title {
+    margin: 0 8px;
+    cursor: pointer;
+    color: #555;
+    padding: 2px;
+}
+
+.select-filter {
+    border: 1px solid black;
+    border-radius: 3px;
+}
