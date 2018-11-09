@@ -1,0 +1,14 @@
+.main {
+    background-image: url(https://wallpaper-house.com/data/out/10/wallpaper2you_438995.jpg);
+    background-size: cover;
+    display: flex;
+    height: inherit;
+}
+
+.main__title {
+    margin: 0;
+    padding: 200px 180px;
+    font-size: 72px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    color: white;
+}

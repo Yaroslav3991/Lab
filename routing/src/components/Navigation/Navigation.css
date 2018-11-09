@@ -1,0 +1,41 @@
+.navigation {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.navigation__link {
+    padding: 15px;
+    align-self: center;
+    text-decoration-line: none;
+    color: black;
+    font-size: 22px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+.navigation__link:hover {
+    background-color: wheat;
+}
+
+.navigation__link--login-out {
+    margin-left: auto;
+}
+
+.navigation__button {
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: auto;
+    background-color: whitesmoke;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+.navigation__button:hover {
+    background-color: wheat;
+}
+
+.navigation__link--invisible {
+    display: none;
+}

@@ -1,0 +1,8 @@
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles__add-new-article {
+    margin: 120px 30px;
+}

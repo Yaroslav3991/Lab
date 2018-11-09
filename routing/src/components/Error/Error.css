@@ -1,0 +1,15 @@
+.error {
+    display: flex;
+    height: inherit;
+    background: url(https://wallpaper-house.com/data/out/10/wallpaper2you_438996.jpg) no-repeat -5px 0;
+    background-size: cover;
+    position: relative;
+}
+
+.error__title {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    font-size: 100px;
+    color: white;
+}

@@ -1,0 +1,65 @@
+.log-in {
+    background: url(https://wallpaper-house.com/data/out/10/wallpaper2you_439000.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+.log-in__title {
+    color: white;
+    margin-left: 320px;
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.logged-in__title {
+    color: white;
+    margin: 300px 150px;
+    font-size: 72px;
+}
+
+.authentication-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 280px;
+    margin-left: 205px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field__title {
+    padding: 20px 20px 5px 20px;
+    font-size: 18px;
+}
+
+.login-field__input {
+    margin: 0 20px;
+    width: 360px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.authentication-form__button {
+    margin: auto 20px 20px 20px;
+    width: 360px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bolder;
+}
